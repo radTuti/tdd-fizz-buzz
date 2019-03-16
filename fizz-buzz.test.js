@@ -21,3 +21,9 @@ test('returns Buzz if number is divible by 5', () => {
   actual = fizzBuzz(10);
   expect(actual).toEqual(expected);
 });
+
+test('returns FizzBuzz if number is divible by 3 and 5', () => {
+  expected = 'FizzBuzz';
+  actual = fizzBuzz(15);
+  expect(actual).toEqual(expected);
+});
