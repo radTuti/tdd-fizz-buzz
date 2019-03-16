@@ -7,7 +7,7 @@ const fizzBuzz = (number) => {
   if (number % 5 === 0) {
     output += 'Buzz';
   }
-  return output || number;
+  return output.length === 0 ? number : output;
 };
 
 module.exports = fizzBuzz;
